@@ -16,6 +16,7 @@ public class Main {
     }else {
       System.out.println("x<=0 or y<=0");
     }
+    sc.close();
   }
 }
 

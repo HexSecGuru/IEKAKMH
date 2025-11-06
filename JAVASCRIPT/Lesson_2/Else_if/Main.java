@@ -1,5 +1,4 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
+package Else_if;
 import java.util.Scanner;
 
 
@@ -13,8 +12,12 @@ public class Main {
     if ( n > 0){
       System.out.println("n > 0");
     }    
-    else
-      System.out.println("n <= 0");
+    else if ( n < 0){
+      System.out.println("n < 0");
+    } else {
+      System.out.println("n = 0");
+    }
+    sc.close();
   }
 
 }
